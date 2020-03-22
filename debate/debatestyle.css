@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lato';
+    font-size: 22;
+    background-image: url('debate.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.main-container {
+    background-color: white;
+    box-shadow: -3px 15px 31px -4px rgba(133,128,133,1);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    width: 800px;
+}
+
+.button-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-3 {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.button-container-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.final-result {
+    text-align: center;
+}
