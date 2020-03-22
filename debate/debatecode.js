@@ -68,7 +68,7 @@ function group1finalScore() {
 };
 
 function group2finalScore() {
-    document.querySelector('.btn-3').disabled = true;
+    document.querySelector('.btn-3').disabled = false;
     group2AverageScore = awele.calcAverageAwele() + osaige.calcAverageOsaige();
     document.querySelector('.answer-2').textContent = 'Group 2 had an average score of ' + group2AverageScore + '/100 points';
     return group2AverageScore;
