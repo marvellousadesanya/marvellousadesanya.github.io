@@ -33,7 +33,7 @@ document.querySelector('#findoutbtn').addEventListener('click', function() {
         document.getElementById('mylovenote').textContent = 'Hey bro, what\'s up? You are stingy though. But really, thanks for being a good brother. You voluntarily and involuntarily put me on the right path.';
 }   else if (inputVal === 'Chinanu') {
         document.querySelector('img').src = 'images/Chinanu.jpg';
-        document.getElementById('mylovenote').textContent = 'You seem like a smart little girl. Althtough we are just getting to know each other but I must say I\'m impressed by your intelligence and maturity. Quite commendable.';
+        document.getElementById('mylovenote').textContent = 'You seem like a smart little girl. Although we are just getting to know each other but I must say I\'m impressed by your intelligence and maturity. Quite commendable.';
 }   else if (inputVal === 'Angel') {
         document.querySelector('img').src = 'images/Angel.jpg';
         document.getElementById('mylovenote').textContent = 'Truly an Angel, you\'ve always been special to me and you always will. You are smart, goal-oriented and you are someone who I can always discuss a lot of things with. Something I find it to do with other girls.';
