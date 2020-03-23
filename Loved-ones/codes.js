@@ -15,7 +15,7 @@ document.querySelector('#findoutbtn').addEventListener('click', function() {
 }   else if (inputVal === 'Funmi' || inputVal === 'Funmilayo') {
         
         document.querySelector('img').src = 'images/Funmi.jpg';
-        document.getElementById('mylovenote').textContent = 'Funmilayo is the Loml 💕. Sturbborn though, sometimes I wonder what goes through your mind when you misbehave. Nonetheless, you\'re adorable, you\'re loving, you\'re beautiful with nice nyansh.';
+        document.getElementById('mylovenote').textContent = 'Funmilayo is the Loml 💕. Stubborn though, sometimes I wonder what goes through your mind when you misbehave. Nonetheless, you\'re adorable, you\'re loving, you\'re beautiful with nice nyansh.';
 }   else if (inputVal === 'Onyinye') {
         document.querySelector('img').src = 'images/Onyinye.jpg';
         document.getElementById('mylovenote').textContent = 'You are funny af. Didn\'t know I could be excited talking to someone else the way I enjoy talking to you. Minus your shakara, you are a very good friend and happy to have you in my circle.';
@@ -27,7 +27,7 @@ document.querySelector('#findoutbtn').addEventListener('click', function() {
         document.getElementById('mylovenote').textContent = 'You are a strong woman, I know life has taught you many lessons and I know deep down you will get happiness';
 }   else if (inputVal === 'Blossom') {
         document.querySelector('img').src = 'images/Blossom.jpg';
-        document.getElementById('mylovenote').textContent = 'Sturbborn but still my cheeksy little sister';
+        document.getElementById('mylovenote').textContent = 'Stubborn but still my cheeksy little sister';
 }   else if (inputVal === 'Tobiloba' || inputVal === 'Tobi' || inputVal === 'Bro Tobi') {
         document.querySelector('img').src = 'images/Tobi.jpg';
         document.getElementById('mylovenote').textContent = 'Hey bro, what\'s up? You are stingy though. But really, thanks for being a good brother. You voluntarily and involuntarily put me on the right path.';
