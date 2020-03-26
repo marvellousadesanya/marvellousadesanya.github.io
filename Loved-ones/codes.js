@@ -46,6 +46,12 @@ document.querySelector('#findoutbtn').addEventListener('click', function() {
 }   else if (inputVal === 'Samuel') {
         document.querySelector('img').src = 'images/Samuel.jpg';
         document.getElementById('mylovenote').textContent = "Just keep praying and working hard bro. God's got you.";
+}   else if (inputVal === 'Jerry') {
+        document.querySelector('img').src = '';
+        document.getElementById('mylovenote').textContent = 'Lol you are our tech geek, I am really impressed with your intelligence and speed of learning and you are someone many are looking up to. I know for sure there is so much in stock for you in the future and I am happy to be your friend.';
+}   else if (inputVal === 'Truston') {
+        document.querySelector('img').src = '';
+        document.getElementById('mylovenote').textContent = 'At first, I thought you were a just a pessimist but with time I learnt to understand that optimistism is not always expressed by mere words but by well calculated actions that point to an attainable goal. You are someone who is ready to go out of his way to help others in the best way you can. What more can be asked of you? You will always be fondly remembered and I can only thank God for having you in my life';
 }   else {
         document.querySelector('img').src = '';
         document.getElementById('mylovenote').textContent = 'Guess we still need to know each other more.';
